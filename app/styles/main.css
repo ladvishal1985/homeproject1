@@ -73,11 +73,28 @@ header h1#logo {
 
 .mainnav{
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    text-align: center;
+}
+.mainnav ul{
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid;
+  width: auto;
+  display: inline-block;
+
 }
 .mainnav li{
     display: inline;
+    border: 1px solid;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top: 0px
+    margin-bottom:0px;
+
 }
 .mainnav a {
     line-height: 100px;
