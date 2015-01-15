@@ -25,6 +25,9 @@ body {
 .clearfix {
   zoom: 1; /* ie 6/7 */
 }
+.footer{
+    border: 1px solid;
+}
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
@@ -109,7 +112,7 @@ header h1#logo {
     transition: all 0.3s;
 }
 .content{
-    margin-top: 300px;
+    margin-top: 150px;
     border: 1px solid;
 }
 header nav a:hover {
@@ -132,12 +135,63 @@ header.smaller nav a {
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
+.bannerslider{
+  padding: 0px;
+}
+.bannerslider img{
+    width: 100%;
+}
+.what-we-do{
+  margin-bottom:5%;
+}
+.top-box h2{
+  text-align: center;
+  color: #888;
+  font-size: 3em;
+  font-family: 'bebas_neueregular';
+  margin-bottom: 20px;
+}
+hr {
+  border-bottom: 1px solid #CCC;
+  border-top: none;
+  margin: 0;
+  width: 500px;
+  display: inline-block;
+  margin-top: -14px;
+  margin-bottom: 14px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-box{
+  text-align:center;
+  margin-bottom: 2%;
+}
+.top-box p{
+  color: #999;
+  font-size:1em;
+  line-height: 1.5em;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.tile{
 
+}
+.tile div{
+    text-align: center;
+}
+.tile div h3{
+    float:none;
+}
+
+.container{
+    max-width: 1000px;
+}
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
+  /*.container {
     max-width: 730px;
-  }
+  }*/
 }
 .container-narrow > hr {
   margin: 30px 0;
