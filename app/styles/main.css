@@ -3,7 +3,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background: url(../images/bg.jpg) no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 50%;
+  color: #999;
+  font-family: Arial;
+  background-color: rgba(30,30,30,0.9);
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -80,19 +83,32 @@ header {
 
 }
 .circle{
-  width:30px;
-  height:30px;
+  width: 35px;
+  height: 35px;
   border-radius:50%;
   font-size:20px;
   color:#fff;
-  line-height:30px;
+  line-height:35px;
   text-align:center;
   background:#000;
+  float: right;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.8);
 }
 
+.circle:hover{ 
+    color: #ffffff; 
+    background-color: #CA3528;
+} /* 'î †' */
+
+.follow-us{
+  line-height: 40px;
+  float: right;
+  font-weight: bold;
+}
 .social-icons{
   float: right;
-  border: 1px solid;
+  width: 100%;
 }
 
 .mainnav{
@@ -128,6 +144,9 @@ header {
     background-position: 0% 100%;
 
 }
+.main-icons{
+  border: 1px solid
+}
 .active {
     background-position: 0% 100%;
 
@@ -157,14 +176,13 @@ header {
     transition: all 0.3s;
 }
 .content{
-    margin-top: 10px;
-    border: 1px solid rgba(55,55,55, 0.1);
     -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
     box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
 }
-header nav a:hover {
-    
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
 }
 header.smaller {
     height: 75px;
@@ -221,8 +239,26 @@ hr {
   margin: 0 auto;
   text-align: left;
 }
-.tile{
+.tile .col-md-4{
+  padding-top: 5%;  
+  padding-bottom: 5%;
+ 
 
+}
+.tile .col-md-4:hover{
+ 
+}
+.tile p{
+  position: absolute;
+  top: 0px;
+}
+.tile a{
+  cursor: pointer;
+  font-size: 20px;
+}
+.tile h3{
+  font-weight: bold;
+  text-decoration: underline;;
 }
 .tile div{
     text-align: center;
@@ -233,6 +269,28 @@ hr {
 
 .container{
     max-width: 1000px;
+}
+.tile .grid_img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid rgba(255,255,255,0.1);
+    
+    
+}
+
+.tile .grid_img i{
+    font-size: 100px;
+    color:#CA3528;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.3);
+    
+
+}
+.tile .grid_img:hover{
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+     -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 /* Customize container */
 @media (min-width: 768px) {
@@ -263,9 +321,6 @@ hr {
 
 
 
-.icon-twitter:hover,.icon-facebook:hover, .icon-linkedin:hover{ 
-  color: #ff00ff; 
-} /* 'î †' */
 
 .page.ng-leave  { z-index:9999; }
 .page.ng-enter  { z-index:8888; }
@@ -317,6 +372,6 @@ hr {
 /***Neeed To Remove*****/
 .about{
     height: 700px;
-    background:#ff00ff;
+    background:#00000;
 
 }
