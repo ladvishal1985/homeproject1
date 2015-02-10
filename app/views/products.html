@@ -1,0 +1,40 @@
+<div id="content" class="content clearfix">
+	<div class="top-box">
+        <h2>Our Products</h2>
+        <hr>
+        <p>Realix provides both portable and Fixed gas detectores for portable safety applications providing protection against a wide range of industrial gas hazards. We have wide range of models of different size and complexity.  
+		Explore the range of models below. 
+        </p>
+    </div>
+	  <div class="row">
+	    <div class="col-md-12">
+	      <div class="btn-group" data-ng-class="{open: open}">
+		        <button class="btn">Filter by Product Type</button>
+		        <button class="btn dropdown-toggle" data-ng-click="open=!open"><span class="caret"></span>
+
+		        </button>
+		        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+		                <li data-ng-repeat="category in categoryList"> 
+		            	<a data-ng-click="setSelectedClient(category)">{{category.name}}
+		            		<i data-ng-class="isChecked(category.id)"></i>
+		            	</a>
+					</li>
+		        </ul>
+		    </div>
+	    </div>
+		<div class="col-md-12">
+	      <ul class="products " >
+	        <li ng-repeat="item in filtered = (products | productFilter:selectedCategory)" class="animate-repeat">
+	          <div class="product-item clearfix">
+	          	<img ng-src="{{item.imageUrl}}">
+	          	<div class="product-disc">
+	          		<a href="#/phones/{{item.id}}">{{item.name}}</a>
+	          		<p>{{item.snippet}}</p>
+	          	</div>
+	          </div>
+	          
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+</div>

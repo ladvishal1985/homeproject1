@@ -1,0 +1,218 @@
+[
+    {
+        "id": "1", 
+        "imageUrl": "data/images/crowcronclip-big.jpg", 
+        "name": "Crowcon Clip and Clip+",
+        "feature":"Maintenance Free Single Gas Monitor", 
+        "category": "portable-gas-detector",
+        "snippet":"Reliable and durable fixed life monitoring in a compact and maintenance-free package. Combines with the Crowcon C-Test station for bump testing. Available in two models, the Crowcon Clip has a 2 year life and is available for hydrogen sulphide (H2S), carbon monoxide (CO) or oxygen (O2). The Crowcon Clip+ has the innovative hibernate function, ideal for contractor or rental fleets where they wish to put the unit into standby mode. Offered for H2S or CO, this unit gives 24 months operation over a period of up to 3 years."
+    }, 
+    {
+        "id": "2", 
+        "imageUrl": "data/images/detectiveplus-big.jpg", 
+        "name": "Detective+", 
+        "feature":"Transportable Multigas Temporary Area Monitor",
+        "category": "portable-gas-detector",
+        "snippet": "Detective+ is now wireless. Detective Net is a wireless module that gives you up to 100 meters range excluding the use of cables. The Detective Net modules can also be used as a repeater giving you a stronger signal in those areas that are built up and that have issues with signal strength. Detective Net is backwards compatible enabling use with all version of Detective and Detective+, so it can be used on your existing fleet."
+    },
+    {
+        "id": "3", 
+        "imageUrl": "data/images/detectiveplus-big.jpg", 
+        "name": "Detective Net", 
+        "feature":"A wireless module that can replace interconnecting cable for Detective+",
+        "category": "portable-gas-detector",
+        "snippet": "Detective Net is a wireless module that can replace interconnecting cables for Detective and Detective+. Detective Net will transmit gas alert signals and other alarms wirelessly between Detective units using a 433MHz signal up to 100 metres in distance."
+    },
+    {
+        "id": "4", 
+        "imageUrl": "data/images/gasman-big.jpg", 
+        "name": "Gasman", 
+        "feature":"Intrinsically Safe Personal Single Gas Monitor",
+        "category": "portable-gas-detector",
+        "snippet": "The Gasman full function personal single gas monitor is compact and lightweight yet is fully ruggedised for the toughest of industrial environments."
+    },
+    {
+        "id": "5", 
+        "imageUrl": "data/images/terta3-big.jpg", 
+        "name": "Tetra 3", 
+        "feature":"Top Display Personal Multigas Monitor",
+        "category": "portable-gas-detector",
+        "snippet": "The Tetra:3 multi-gas monitor is a compact, robust and easy to use diffusion based detector. Single button operation, small size and clear top-mounted display make it a favourite in the market amongst those working in demanding industrial environments such as those in the water, telecoms, food, brewing or hydrocarbons sectors."
+    },
+
+    {
+        "id": "6", 
+        "imageUrl": "data/images/gaspro-big.jpg", 
+        "name": "Gas Pro", 
+        "feature":"Five-gas Monitor with Confined Space Functionality",
+        "category": "portable-gas-detector",
+        "snippet": "Crowcon Gas-Pro is a confined space entry monitoring solution for workers and fleet managers, and is now supported by the Crowcon I-Test bump test and calibration station. Offering detection of up to 5 gases in a compact and rugged solution, Gas-Pro has an easy-to-read top mount display combining ease of use and user focused features."
+    },
+    {
+        "id": "7", 
+        "imageUrl": "data/images/200.jpg", 
+        "name": "I-Test & I-Test Manager", 
+        "feature":"Bump test and calibration solution",
+        "category": "portable-gas-detector",
+        "snippet": "I-Test is Crowcon’s newest solution to test and verify that your Gas-Pro is in a compliant state for you to carry out your daily work. Bump testing standards are getting tighter in all regions and the need for control of the bump and calibration records is a must. The I-Test and I-Test manager makes this as easy as it can be. "
+    },
+
+    {
+        "id": "8", 
+        "imageUrl": "data/images/tetra-big.jpg", 
+        "name": "Tetra", 
+        "feature":"Personal Multigas Monitor with optional internal pump",
+        "category": "portable-gas-detector",
+        "snippet": "Tetra is a flexible multigas monitor for the detection of flammable gases, oxygen and a wide range of toxic gases. Available in rechargeable or disposable battery format and with or without an internal pump, it is used extensively in the utilities, chemicals and hydrocarbon processing markets."
+    },{
+        "id": "9", 
+        "imageUrl": "data/images/TriplePlus-big.jpg", 
+        "name": "Triple Plus+", 
+        "feature":"Iconic Multigas Portable Monitors with IR option",
+        "category": "portable-gas-detector",
+        "snippet": "Triple Plus+ is the latest generation of the respected 'Triple' family of toxic, oxygen and flammable gas detectors. With over 90,000 units sold to oil and gas, chemical, utility and manufacturing companies worldwide, their combination of ruggedness, reliability, ease of use and sensor flexibility has set the standard for multigas portables."
+    },{
+        "id": "10", 
+        "imageUrl": "data/images/GasTecMkV-big.jpg", 
+        "name": "Gas-Tec MkV", 
+        "feature":"Maintenance Free Single Gas Monitor",
+        "category": "portable-gas-detector",
+        "snippet": "Reliable and durable fixed life monitoring in a compact and maintenance-free package. Combines with the Crowcon C-Test station for bump testing. Available in two models, the Crowcon Clip has a 2 year life and is available for hydrogen sulphide (H2S), carbon monoxide (CO) or oxygen (O2). The Crowcon Clip+ has the innovative hibernate function, ideal for contractor or rental fleets where they wish to put the unit into standby mode. Offered for H2S or CO, this unit gives 24 months operation over a period of up to 3 years."
+    },{
+        "id": "11", 
+        "imageUrl": "data/images/LaserMethane-big.jpg", 
+        "name": "Laser Methane mini (LMm)", 
+        "feature":"ATEX-rated, laser-based remote methane detector",
+        "category": "portable-gas-detector",
+        "snippet": "The LaserMethane mini (LMm) is an innovative portable detector that allows methane gas to be detected from a distance. This enables easy access to hard to reach locations, such as elevated piping or locked premises, and helps keep the operator away from potential leak sources."
+    },
+    {
+        "id": "12", 
+        "imageUrl": "data/images/Xgard-big.jpg", 
+        "name": "Xgard", 
+        "feature":"Detectors for flammable, toxic and oxygen gases",
+        "category": "fixed-detector",
+        "snippet": "The Xgard range is a comprehensive selection of fixed point gas detectors that meet the diverse requirements for gas detection in industries throughout the world. This includes many water treatment, oil and gas, power, research facility and manufacturing installations. Intrinsically Safe (I.S.) or Flameproof (Exd) versions are available, with case options comprising high-grade alloy, stainless steel or chemically resistant GRN polymer. Certifications include IECEx, ATEX, UL, GOST-R and MED."
+    },
+    {
+        "id": "13", 
+        "imageUrl": "data/images/x-safe.jpg", 
+        "name": "Xsafe", 
+        "feature":"Robust flammable gas detector for non-hazardous areas",
+        "category": "fixed-detector",
+        "snippet": "Features a tough alloy housing and the same standard of design and reliability as Crowcon hazardous area detectors but without the extra cost of certified electronics."
+    },
+    {
+        "id": "14", 
+        "imageUrl": "data/images/irex-big.jpg", 
+        "name": "IREX", 
+        "feature":"Infra-red pellistor replacement flammable gas detector",
+        "category": "fixed-detector",
+        "snippet": "IREX is a sinter-free, fully featured infra-red gas detector that produces an mV Wheatstone Bridge output as used on conventional pellistor based systems. IREX replaces old pellistor heads by simply mounting on the original junction box and connecting to the original cable. The IREX concept enables upgrade to dual-wavelength IR gas detector technology without incurring the very significant costs associated with replacing the control system and re-installation."
+    },
+    {
+        "id": "15", 
+        "imageUrl": "data/images/irmax-big.jpg", 
+        "name": "IRmax", 
+        "feature":"IRmax is an ultra-compact infra-red (IR) gas detector",
+        "category": "fixed-detector",
+        "snippet": "IRmax is an ultra-compact infra-red (IR) gas detector that delivers rapid, fail-safe detection of hydrocarbon gases and vapours. The IRmax gas detection system offers the choice of a detector only, a local gas/status display, a remote gas/status display or non-intrusive calibration via an I.S. calibration tool or hand-held HART communicator."
+    },
+    {
+        "id": "16", 
+        "imageUrl": "data/images/TXgard-IS-big.jpg", 
+        "name": "TXgard-IS+", 
+        "feature":"Toxic and oxygen gas detector with display",
+        "category": "fixed-detector",
+        "snippet": "TXgard-IS+ is a Intrinsically Safe (I.S.) toxic and oxygen gas detector with local LCD display. A very wide choice of sensors are available for use in a variety of applications. TXgard-IS+ is ATEX certified for use in Zone 0,1 or 2 hazardous areas and also UL and cUL certified for use in Division 1 or 2 hazardous areas."
+    },
+    {
+        "id": "17", 
+        "imageUrl": "data/images/txguardplus-big.jpg", 
+        "name": "TXgard Plus", 
+        "feature":"Flameproof toxic and oxygen gas detector with display",
+        "category": "fixed-detector",
+        "snippet": "TXgard Plus is a flameproof (Ex d), ATEX and UL certified toxic or oxygen gas detector with local LCD display. A choice of sensors are available enabling use in a wide range of applications, including water treatment, oil and gas exploration, chemical plants and steel production."
+    },
+    {
+        "id": "18", 
+        "imageUrl": "data/images/FlamgardPlus-big.jpg", 
+        "name": "Flamgard Plus", 
+        "feature":"Flammable gas detector with display",
+        "category": "fixed-detector",
+        "snippet": "Flamgard Plus is a Flameproof (Exd) flammable gas detector which uses poison-resistant pellistors to detect explosive levels of hydrocarbons, hydrogen and other flammable gases and vapours, including aviation fuel and leaded petrol vapours."
+    },
+    {
+        "id": "19", 
+        "imageUrl": "data/images/openpath-big.jpg", 
+        "name": "Open Path Gas Detectors", 
+        "feature":"Open-path line of sight gas IR detectors",
+        "category": "fixed-detector",
+        "snippet": "Crowcon offers open-path infra-red (IR) gas detection systems based on well-proven technology for fast detection of combustible gases and vapours over a line-of-sight up to 200m long. Using superior 'Xenon Flash' technology the SafEye range is immune to false alarms caused by partial blockage and extreme weather conditions (fog, rain or snow) and direct or reflected sunlight, flame or other black body radiation sources."
+    },
+    {
+        "id": "20", 
+        "imageUrl": "data/images/flamedecotor-big.jpg", 
+        "name": "Flame Detectors", 
+        "feature":"IR & UV based flame detectors",
+        "category": "fixed-detector",
+        "snippet": "Crowcon offers a range of infra-red (IR) and ultra-violet (UV) based flame detectors for quickly detecting flames at a distance. Depending on model, this includes a variety of gas and fuel fires including those generated from hydrocarbons, hydrogen, metals, inorganic and hydroxyl sources. The 40/40 series operate in the harshest environmental conditions and are self-contained, stand-alone devices designed for direct connection to control and alarm systems or automatic fire-extinguishing systems."
+    },
+    {
+        "id": "21", 
+        "imageUrl": "data/images/gasflag-big.jpg", 
+        "name": "Gasflag", 
+        "feature":"Entry level control panel",
+        "category": "control-panel",
+        "snippet": "Gasflag is a control system for monitoring any 4-20mA flammable, toxic or oxygen gas detector. Gasflag is ideally suited to light industrial or commercial applications such as LPG monitoring on garage forecourts, chlorine detection in swimming pool dosing rooms, or methane detection in boiler rooms."
+    },
+    {
+        "id": "22", 
+        "imageUrl": "data/images/cellersafe-big.jpg", 
+        "name": "CellarSafe", 
+        "feature":"Combined CO2 and O2 protection system",
+        "category": "control-panel",
+        "snippet": "From fermentation through to distribution, carbon dioxide (CO2) is one of the most common hazards to health in wineries, breweries, cellars and drinks outlets. Long term exposure to as little as 0.5% volume CO2 represents a toxic health hazard and concentrations greater than 10% volume can lead to death. CO2 is also now recognized to potentially pose a health hazard to workers in commercial kitchens and educational facilities."
+    },
+    {
+        "id": "23", 
+        "imageUrl": "data/images/gasmaster-big.jpg", 
+        "name": "Gasmaster", 
+        "feature":"1-4 channel gas detection control panel",
+        "category": "control-panel",
+        "snippet": "Crowcon Gasmaster is a compact, versatile and powerful gas detection control panel that combines simple operation with an extensive array of input and output functions."
+    },
+    {
+        "id": "24", 
+        "imageUrl": "data/images/vortex-big.jpg", 
+        "name": "Vortex", 
+        "feature":"1-12 Channel Flexible Format Control System",
+        "category": "control-panel",
+        "snippet": "Vortex is our most flexible control package that can be customised to meet your site requirements, however complex, without the need for extensive cabling. Vortex is available in four formats: wall mounted, 19\" rack mounted, panel mounted or Exd Flameproof (Vortex FP). "
+    },
+    {
+        "id": "25", 
+        "imageUrl": "data/images/vortwxfp-big.jpg", 
+        "name": "Vortex FP", 
+        "feature":"Flameproof Control System",
+        "category": "control-panel",
+        "snippet": "Vortex FP and Vortex FP Compact are ATEX certified Exd Flameproof control panels for use in Zone 1 or Zone 2 hazardous areas such as on offshore production platforms or within refineries. Both offer all of the standard Vortex features, as well as a display fitted with magnetic switches which enable the system to be interrogated or inhibited without opening the system enclosure."
+    },
+    {
+        "id": "26", 
+        "imageUrl": "data/images/gasmonitor-big.jpg", 
+        "name": "Gasmonitor", 
+        "feature":"1-16 channel control system",
+        "category": "control-panel",
+        "snippet": "Gasmonitor Plus is Crowcon’s flexible 19\" rack-based control system. This microprocessor-controlled unit is used throughout the world, both onshore and offshore. Gasmonitor Plus can monitor up to 16 gas detectors or 32 fire zones per rack. Racks can be supplied separately, or built into wall mounting or floor standing enclosures."
+    },
+    {
+        "id": "27", 
+        "imageUrl": "data/images/hydra-big.jpg", 
+        "name": "Hydra 32 and 256", 
+        "feature":"Addressable car park gas detection system",
+        "category": "control-panel",
+        "snippet": "The Crowcon Hydra Addressable Gas Detection System is designed to monitor toxic and/or flammable gas hazards, particularly in car park applications. Addressibility significantly reduces installation costs and makes savings through effective control of ventilation fans achievable, for example running fans at full power only when gas levels rise."
+    }
+
+]
