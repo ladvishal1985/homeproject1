@@ -18,8 +18,8 @@ angular
     'ngTouch',
     'ui.bootstrap',
     'app-services',
-    'app-filters'
-
+    'app-filters',
+    'app-animations'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -34,6 +34,10 @@ angular
        .when('/products', {
         templateUrl: 'views/products.html',
         controller: 'ProductsCtrl'
+      })
+       .when('/products/:productId', {
+        templateUrl: 'views/productdetail.html',
+        controller: 'ProductDetailCtrl'
       })
       .when('/services', {
         templateUrl: 'views/services.html',
@@ -56,7 +60,7 @@ angular
         }
     }
 });
-function init() {
+/*function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
             shrinkOn = 300,
@@ -71,4 +75,4 @@ function init() {
     });
 }
 
-window.onload = init();
+window.onload = init();*/

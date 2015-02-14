@@ -5,7 +5,24 @@
         "name": "Crowcon Clip and Clip+",
         "feature":"Maintenance Free Single Gas Monitor", 
         "category": "portable-gas-detector",
-        "snippet":"Reliable and durable fixed life monitoring in a compact and maintenance-free package. Combines with the Crowcon C-Test station for bump testing. Available in two models, the Crowcon Clip has a 2 year life and is available for hydrogen sulphide (H2S), carbon monoxide (CO) or oxygen (O2). The Crowcon Clip+ has the innovative hibernate function, ideal for contractor or rental fleets where they wish to put the unit into standby mode. Offered for H2S or CO, this unit gives 24 months operation over a period of up to 3 years."
+        "description":["Reliable and durable fixed life monitoring in a compact and maintenance-free package. Combines with the Crowcon C-Test station for bump testing. Available in two models, the Crowcon Clip has a 2 year life and is available for hydrogen sulphide (H2S), carbon monoxide (CO) or oxygen (O2). The Crowcon Clip+ has the innovative hibernate function, ideal for contractor or rental fleets where they wish to put the unit into standby mode. Offered for H2S or CO, this unit gives 24 months operation over a period of up to 3 years."],
+        
+        "featurelist":[
+            "Ensures worker safetyReduces training time",
+            "Removes the need for service and maintenance",
+            "Offers adjustable alarm levels",
+            "Gives real time gas reading or life left indication",
+            "Provides self test and test due indication functionality",
+            "Combines with the Crowcon C-Test station for bump testingIR Clip software"
+
+        ],
+        "images":[
+            "data/images/crowcronclip-big.jpg",
+            "data/images/detectiveplus-big.jpg",
+            "data/images/gasman-big.jpg",
+            "data/images/terta3-big.jpg",
+            "data/images/gaspro-big.jpg"
+        ]
     }, 
     {
         "id": "2", 
@@ -13,7 +30,19 @@
         "name": "Detective+", 
         "feature":"Transportable Multigas Temporary Area Monitor",
         "category": "portable-gas-detector",
-        "snippet": "Detective+ is now wireless. Detective Net is a wireless module that gives you up to 100 meters range excluding the use of cables. The Detective Net modules can also be used as a repeater giving you a stronger signal in those areas that are built up and that have issues with signal strength. Detective Net is backwards compatible enabling use with all version of Detective and Detective+, so it can be used on your existing fleet."
+        "description": ["Detective+ is now wireless. Detective Net is a wireless module that gives you up to 100 meters range excluding the use of cables. The Detective Net modules can also be used as a repeater giving you a stronger signal in those areas that are built up and that have issues with signal strength. Detective Net is backwards compatible enabling use with all version of Detective and Detective+, so it can be used on your existing fleet.",
+            "Designed for group protection, area monitoring and providing a virtual fenceline, Detective+ is a rugged, interconnectable, multigas temporary area monitor. Building on Crowcon's experience in pioneering this category of detector, Detective+ has earned a reputation for reliability and versatility in demanding environments stretching from offshore platforms to the sands of the Middle East. ",
+            "Rugged and robust, Detective+ features either fixed or folding legs and a protective frame that allows stacking for easier storage. Available with an optional internal pump for sampling versatility, alarms are announced with an extremely loud sounder, while multiple beacons ensure 360 degree visibility.",
+            "Detective+ may now also be equipped with infra-red (IR) sensors, providing either CO2 detection, or allowing higher levels of flammable gas monitoring. IR sensors also provide immunity to the poisoning effects which standard flammable gas sensors can suffer from. This extends sensor life and further increases measurement confidence in tough applications such as water treatment plants and certain chemical or hydrocarbon processing facilities."
+        ],
+        "featurelist":[
+            "Up to 4 gases monitored from a wide choice of long life sensors",
+            "Ultra-loud 104 dBA sounder and red LED cluster alarms",
+            "Long 36 or 60 hour battery life",
+            "Raised detectors, coupled with IP65 specification provides excellent sensor protection",
+            "Built-in pump option to provide extra flexibility, eg sampling a tank from above",
+            "12 Detective+ units may be linked together, up to 100m from adjacent unit"
+        ]
     },
     {
         "id": "3", 
@@ -21,7 +50,11 @@
         "name": "Detective Net", 
         "feature":"A wireless module that can replace interconnecting cable for Detective+",
         "category": "portable-gas-detector",
-        "snippet": "Detective Net is a wireless module that can replace interconnecting cables for Detective and Detective+. Detective Net will transmit gas alert signals and other alarms wirelessly between Detective units using a 433MHz signal up to 100 metres in distance."
+        "description": ["Detective Net is a wireless module that can replace interconnecting cables for Detective and Detective+. Detective Net will transmit gas alert signals and other alarms wirelessly between Detective units using a 433MHz signal up to 100 metres in distance.",
+            "Detective Net uses the proven RICOCHET mesh network. When establishing a mesh network, Detective Net automatically selects the best line to give strongest interconnections. Should wireless connection between two devices weaken, the network will ‘self-heal’ and automatically re-route communications via alternate RICOCHET enabled devices, creating a mesh type network that provides a more robust and efficient wireless network.",
+            "When Detective+ goes into alarm, the signal will be sent to other units alerting the user to gas being present in the area. If the signal is weak due to heavy metal work being present the Detective Net can be used as a repeater to boost the signal between units. In a confined space the unit can use up to 20 metres of cable to position the unit in a location that will increase signal. For more ideas see the suggestions below or visit our website. "
+        ],
+        "featurelist":[]
     },
     {
         "id": "4", 
@@ -29,7 +62,23 @@
         "name": "Gasman", 
         "feature":"Intrinsically Safe Personal Single Gas Monitor",
         "category": "portable-gas-detector",
-        "snippet": "The Gasman full function personal single gas monitor is compact and lightweight yet is fully ruggedised for the toughest of industrial environments."
+        "description": [
+            "The Gasman full function personal single gas monitor is compact and lightweight yet is fully ruggedised for the toughest of industrial environments.",
+            "Featuring simple single button operation, it has a large easy to read display of gas concentration, and audible, visual and vibrating alarms."],
+        "featurelist":[
+            "Versions available for flammable gas, oxygen and toxic gases",
+            "Infra-red carbon dioxide sensor version for safe area use (ie non-explosion risk areas)",
+            "Rechargeable versions for all gas types",
+            "Non rechargeable versions for oxygen and toxic gases",
+            "Ultra lightweight – just 85g for toxic versions",
+            "Loud 95dBA audible alarm",
+            "Dual colour visual alarm, red blue twin flashing LEDs",
+            "Vibrating alarmIP65 and IP67 ingress protection",
+            "Real time TWA and Peak display options",
+            "Data and event logging as standard",
+            "Rechargeable battery with a 3000 Alarm Minute capacity"
+        ]    
+
     },
     {
         "id": "5", 
@@ -37,7 +86,21 @@
         "name": "Tetra 3", 
         "feature":"Top Display Personal Multigas Monitor",
         "category": "portable-gas-detector",
-        "snippet": "The Tetra:3 multi-gas monitor is a compact, robust and easy to use diffusion based detector. Single button operation, small size and clear top-mounted display make it a favourite in the market amongst those working in demanding industrial environments such as those in the water, telecoms, food, brewing or hydrocarbons sectors."
+        "description": [
+            "The Tetra:3 multi-gas monitor is a compact, robust and easy to use diffusion based detector. Single button operation, small size and clear top-mounted display make it a favourite in the market amongst those working in demanding industrial environments such as those in the water, telecoms, food, brewing or hydrocarbons sectors.",
+            "Despite its compact size the Tetra:3 is ultra-rugged and water proof.",
+            "Gases include the most common four (carbon monoxide, methane, oxygen and hydrogen sulphide), but also an expanded range: ammonia, ozone, sulphur dioxide, H2 filtered CO (for steel plants) and IR carbon dioxide (for safe area use only)."
+        ],
+        "featurelist":[
+            "Up to 4 gases in a small and lightweight design",
+            "Infra-red carbon dixoide sensor version for safe area use (ie non-explosion risk areas)",
+            "Single button operation for all functions, can be operated with gloved hands",
+            "Rugged impact resistant design provides extra shock and vibration protection",
+            "Reliable Lithium-ion battery provides over 16 hours continuous operation from a single charge with no memory effects.",
+            "Water and Dust resistant to IP67, can be submerged in water",
+            "Rapid and effective warning with a 95 dBa audible alarm, an extremely bright red/blue visual alarm and vibrating alarm as standard.",
+            "Top mounted, backlit display of all gas readings, diagnostics and battery life."
+        ]
     },
 
     {
@@ -46,7 +109,12 @@
         "name": "Gas Pro", 
         "feature":"Five-gas Monitor with Confined Space Functionality",
         "category": "portable-gas-detector",
-        "snippet": "Crowcon Gas-Pro is a confined space entry monitoring solution for workers and fleet managers, and is now supported by the Crowcon I-Test bump test and calibration station. Offering detection of up to 5 gases in a compact and rugged solution, Gas-Pro has an easy-to-read top mount display combining ease of use and user focused features."
+        "description": ["Crowcon Gas-Pro is a confined space entry monitoring solution for workers and fleet managers, and is now supported by the Crowcon I-Test bump test and calibration station. Offering detection of up to 5 gases in a compact and rugged solution, Gas-Pro has an easy-to-read top mount display combining ease of use and user focused features.",
+            "An optional internal pump, activated with the flow plate, takes the pain out of pre-entry testing and allows Gas-Pro to be worn either in pumped or diffusion modes.",
+            "Gases include the most common four (carbon monoxide, methane, oxygen and hydrogen sulphide), but also an expanded range: ammonia, ozone, sulphur dioxide, H2 filtered CO (for steel plants) and IR carbon dioxide (for safe area use only)."
+        ],
+        "featurelist":[
+            ""]
     },
     {
         "id": "7", 

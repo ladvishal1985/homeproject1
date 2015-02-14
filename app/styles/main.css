@@ -1,7 +1,7 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   /*background: url(../images/bg.jpg) no-repeat;*/
   background-size: 100% 50%;
   color: #999;
@@ -14,6 +14,7 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+
 }
 .clearfix:before,
 .clearfix:after {
@@ -32,7 +33,10 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  
+  }
+ul{
+  list-style: none;
+  padding:0px;
 }
 /* Make the masthead heading the same height as the navigation */
 h3 {
@@ -55,6 +59,7 @@ header {
     -ms-transition: height 0.3s;
     -o-transition: height 0.3s;
     transition: height 0.3s;
+    background: #ffffff;
 }
 
 .logo{
@@ -202,6 +207,18 @@ header.smaller nav a {
 .footer {
   padding-top: 19px;
   color: #777;
+   background: #cc372a; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjMzcyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM4JSIgc3RvcC1jb2xvcj0iI2NjMzcyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iI2NjMzcyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iI2NjMzcyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iI2NjMzcyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2MyMmYyNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjMjJmMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #cc372a 0%, #cc372a 38%, #cc372a 44%, #cc372a 44%, #cc372a 44%, #c22f24 68%, #c22f24 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc372a), color-stop(38%,#cc372a), color-stop(44%,#cc372a), color-stop(44%,#cc372a), color-stop(44%,#cc372a), color-stop(68%,#c22f24), color-stop(100%,#c22f24)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #cc372a 0%,#cc372a 38%,#cc372a 44%,#cc372a 44%,#cc372a 44%,#c22f24 68%,#c22f24 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #cc372a 0%,#cc372a 38%,#cc372a 44%,#cc372a 44%,#cc372a 44%,#c22f24 68%,#c22f24 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #cc372a 0%,#cc372a 38%,#cc372a 44%,#cc372a 44%,#cc372a 44%,#c22f24 68%,#c22f24 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #cc372a 0%,#cc372a 38%,#cc372a 44%,#cc372a 44%,#cc372a 44%,#c22f24 68%,#c22f24 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc372a', endColorstr='#c22f24',GradientType=0 ); /* IE6-8 */
+
+
 }
 .bannerslider{
   padding: 0px;
@@ -272,6 +289,9 @@ hr {
 
 .container{
     max-width: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .tile .grid_img{
     padding-top: 5%;
@@ -308,11 +328,17 @@ hr {
     list-style: none;
     padding: 0px;
 }
+.products li{
+    width: 33.33%;
+    float: left;
+}
 .product-item {
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius:15px;
+    border-radius: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .product-item:hover{
     border: 1px solid rgba(0,0,0,0.1);
@@ -323,9 +349,16 @@ hr {
 }
 .product-item >img{    
     position: relative;;
-    float: left;
-    height: 150px;
-    margin: 10px;
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+.product-item > h4{
+    text-align: center;
+    border-radius-left-top: 15px;
+    border-radius-right-top: 15px; 
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
 }
 .product-disc{
     margin-top: 15px;
@@ -352,6 +385,69 @@ hr {
 .contact-header{
   color: #999;
 }
+.preview-pane{
+  float: left;
+  padding: 10px;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  background-color: white;
+}
+.snippet{
+  width: 60%;
+  float: left;
+}
+img.bigimage{
+  height: 450px;
+  display: block;
+  margin: auto;
+  position: relative;
+  display: none;
+}
+img.bigimage:first-child {
+    display: block;
+}
+.snippet hr{
+  width: 100%;
+}
+#tabset{
+  margin: 10px;
+  min-height: 300px;
+}
+.tab-content{
+  padding: 15px;
+}
+.snippet ul{
+    list-style: none;
+    padding: 0px;
+}
+.snippet ul li{
+    float:left;
+    display: inline;
+
+}
+.thumb{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 5px;
+    height: 120px;
+}
+img.phone:first-child {
+  display: block;
+}
+.thumb:hover{
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.features{
+    padding: 10px;
+}
+.features span{
+    margin-left:5px;
+    margin-right: 5px; 
+    display: block;
+    float: left;
+}
 /*****Vertical Spacers***/
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -366,30 +462,26 @@ hr {
 .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 /************************/
-/* Customize container */
-@media (min-width: 768px) {
-  /*.container {
-    max-width: 730px;
-  }*/
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
 
 
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .products li{
+      width: 50%;
+      float: left;
   }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
+ 
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .products li{
+    width: 100%;
+    float: left;
+  } 
  
 }
 
@@ -403,7 +495,8 @@ hr {
 
 .page{ 
   position:relative; 
-  width:100%; 
+  width:75%; 
+  margin: auto;
 }
 .page.ng-leave         {
     -webkit-animation:slideOutLeft 0.5s both ease-in;

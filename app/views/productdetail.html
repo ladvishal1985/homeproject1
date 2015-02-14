@@ -1,0 +1,41 @@
+<div class="details">
+	<div>
+		<div class="clearfix">
+			<div class="preview-pane">
+				 <img ng-src="{{img}}" class="bigimage" ng-repeat="img in productDetails.images" 
+				 ng-class="{active: mainImageUrl==img}">
+			</div>
+			<div class="snippet">
+				<h1>{{productDetails.name}}</h1>
+				<hr>
+				<ul>
+					<li ng-repeat="img in productDetails.images">
+						<img class="thumb" ng-src="{{img}}" ng-mouseenter="setImage(img)">
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<tabset id="tabset">
+			<tab heading="Description">
+				<ul class="description">
+					<li ng-repeat="description in productDetails.description">
+						<p>{{description}}</p>
+					</li>
+				</ul>
+				<ul class="features">
+					<li ng-repeat="feature in productDetails.featurelist">
+						<span><i class="icon-ok"></i></span>
+						<p>{{feature}}</p>
+					</li>
+ 				</ul>
+ 			</tab>
+			<tab heading="Specifications">
+				Under construction
+			</tab>
+		</tabset>
+		
+	</div>
+	
+	
+</div>
